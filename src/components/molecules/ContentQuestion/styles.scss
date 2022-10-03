@@ -1,0 +1,31 @@
+.container-content-question {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: aliceblue;
+
+  .answer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .identification-question {
+    display: flex;
+    width: 100%;
+
+    > p {
+      margin-right: 15px;
+    }
+
+    .number-question {
+      display: flex;
+    }
+  }
+
+  .question-description {
+    display: flex;
+    text-align: initial;
+    margin: 20px 0;
+  }
+}

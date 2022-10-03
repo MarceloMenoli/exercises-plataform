@@ -1,0 +1,25 @@
+.container-alternative {
+  display: flex;
+  align-items: center;
+  p {
+    cursor: pointer;
+  }
+  .letter-alternative {
+    display: flex;
+    background: gainsboro;
+    padding: 5px 0;
+    margin-right: 10px;
+    line-height: 10px;
+    width: 20px;
+    justify-content: center;
+    &.selected {
+      background: #00b9ff91;
+    }
+  }
+  .alternative {
+    color: #777272;
+    &.selected {
+      color: #000;
+    }
+  }
+}
